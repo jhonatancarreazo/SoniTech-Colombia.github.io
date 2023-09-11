@@ -120,3 +120,37 @@
 
 
 }
+
+
+
+
+@media (max-width: 576px) {
+    main > div {
+        display: none;
+    }
+    
+}
+@media (max-width: 992px) {
+    .logo {
+      display: none;
+    }
+  nav{
+    z-index:100000;
+  }
+  
+  #navbarNav{
+    background-color: #f6f6f6;
+    opacity: 90%;
+    text-align: center;
+    width: 10%;
+    color: white;
+  }
+  .nav-item{
+    border-bottom: solid 1px #d0d0d0;
+  }
+  .nav-link{
+    color: #262626;
+}
+   
+ 
+}
