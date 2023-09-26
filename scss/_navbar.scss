@@ -1,0 +1,23 @@
+
+.nav {
+    box-shadow: $nav-box-shadow;
+    height: $nav-height;
+}
+
+.nav-link {
+    color: $nav-link-color;
+    margin-left: $nav-link-margin-left;
+    font-weight: $nav-link-font-weight;
+
+    &:active {
+        color: $nav-link-active-color;
+    }
+
+    &:hover {
+        color: $nav-link-hover-color;
+    }
+}
+
+.logo {
+    max-width: 100px;
+}

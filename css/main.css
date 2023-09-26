@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+* {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav {
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.75);
+  height: 50px;
+}
+
+.nav-link {
+  color: black;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.nav-link:active {
+  color: #ff764d;
+}
+.nav-link:hover {
+  color: #ff764d;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.main__img {
+  height: 506px;
+  background-image: url("../img/ableton_main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+}
+
+.card img {
+  width: 20%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  margin-bottom: 10px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+@media (max-width: 576px) {
+  main > div {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .logo {
+    display: none;
+  }
+  nav {
+    z-index: 100000;
+  }
+  nav .nav-item {
+    border-bottom: solid 1px #d0d0d0;
+  }
+  nav .nav-link {
+    color: #262626;
+  }
+  nav #navbarNav {
+    background-color: #f6f6f6;
+    opacity: 90%;
+    text-align: center;
+    width: 10%;
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
