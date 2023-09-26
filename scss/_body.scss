@@ -1,10 +1,5 @@
 .main__img {
-    height: 506px;
-    background-image: url("../img/ableton_main.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 100px;
+   @include bg;
 }
 
 .card img {
