@@ -24,7 +24,10 @@
 }
 
 .logo {
-  max-width: 100px;
+  width: 200px;
+  background-image: url(../icons/logo-no-background.png);
+  background-size: 300px;
+  background-position: center;
 }
 
 .main__img {
@@ -34,6 +37,17 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 100px;
+}
+
+.btn-user{
+  background-color: #ff764d;
+  width: 10%;
+  color: #f6f6f6;
+  font-weight: 400;
+}
+
+.btn-user:hover{
+  color: #262626;
 }
 
 .card img {
@@ -60,8 +74,7 @@
   }
 }
 @media (max-width: 992px) {
-  .logo {
-    display: none;
+  
   }
   nav {
     z-index: 100000;
