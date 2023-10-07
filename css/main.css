@@ -69,12 +69,15 @@
 }
 
 @media (max-width: 576px) {
-  main > div {
-    display: none;
+  .main__img{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 992px) {
-  
+  .btn-user{
+    width: 100%;
   }
   nav {
     z-index: 100000;
